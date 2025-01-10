@@ -19,7 +19,7 @@ export async function Updated(formData) {
   }
 
   try {
-   response = await fetch(`http://localhost:4000/todo/${id}`, {
+   response = await fetch(`${process.env.URL}/todo/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

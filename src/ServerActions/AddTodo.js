@@ -3,6 +3,7 @@
 import { cookies } from 'next/headers'; 
 import { redirect } from 'next/navigation';
 
+console.log(process.env.URL);
 
 export async function AddTodo(formData) {
     const Title = formData.get("title");
@@ -19,7 +20,7 @@ export async function AddTodo(formData) {
     }
 
     try {
-         response = await fetch(`http://localhost:4000/todo/testing`, {
+         response = await fetch(`${process.env.URL}/todo/testing`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

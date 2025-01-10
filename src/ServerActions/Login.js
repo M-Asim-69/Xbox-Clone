@@ -8,7 +8,7 @@ export async function Login(formData) {
     const pass = formData.get('password');
     let response;
     try {
-         response = await fetch(`http://localhost:4000/users/login`, {
+         response = await fetch(`${process.env.URL}/users/login`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

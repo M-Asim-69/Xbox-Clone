@@ -8,7 +8,7 @@ export async function Deleted(formData) {
     const todoId = formData.get("id"); // We are using this to get value of input from the form in server side
     const cookieStore = await cookies();
     const token = cookieStore?.get("access_token").value;
-    const response = await fetch(`http://localhost:4000/todo/${todoId}`, {
+    const response = await fetch(`https://todo-api-eight-umber.vercel.app/todo/${todoId}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
