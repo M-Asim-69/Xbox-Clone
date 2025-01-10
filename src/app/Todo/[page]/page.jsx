@@ -13,7 +13,7 @@ async function fetchTodos(page = 1, limit = 4) {
 
   try {
     const response = await fetch(
-      `http://localhost:4000/todo/listing?page=${page}&limit=${limit}`,
+      `${process.env.URL}/todo/listing?page=${page}&limit=${limit}`,
       {
         headers: {
           "Content-Type": "application/json",

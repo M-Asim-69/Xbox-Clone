@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 
 function page() {
+  console.log(process.env,URL);
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-green-700 to-gray-900 text-white">
       <div className="text-center mb-8">

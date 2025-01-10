@@ -1,0 +1,14 @@
+[
+  {
+    "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/Add(\\\\.json)?[\\/#\\?]?$",
+    "originalSource": "/Add"
+  },
+  {
+    "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/Todo(\\\\.json)?[\\/#\\?]?$",
+    "originalSource": "/Todo"
+  },
+  {
+    "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/Update(\\\\.json)?[\\/#\\?]?$",
+    "originalSource": "/Update"
+  }
+]
