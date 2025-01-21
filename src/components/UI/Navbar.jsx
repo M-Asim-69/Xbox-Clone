@@ -29,7 +29,7 @@ export default async function Navbar() {
               {token ? "Add" : "News"}
             </Link>
             <Link
-              href={token ? `/Todo/${1}` : "/Support"}
+              href={token ? `/Todo/${1}` : "/support"}
               className="hover:text-green-500"
             >
               {token ? "Todo" : "Support"}

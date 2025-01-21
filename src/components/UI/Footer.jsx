@@ -40,7 +40,7 @@ export default async function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href={token ? `/Todo/${1}` : "/Support"}>
+                  <Link href={token ? `/Todo/${1}` : "/support"}>
                     <span className="hover:text-green-500 cursor-pointer text-gray-400 transition duration-300 ease-in-out transform hover:translate-x-1">
                       {token ? "Todo" : "Support"}
                     </span>

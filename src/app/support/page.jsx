@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 function SupportPage() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center py-10">
-      <header className="w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <div className="min-h-screen bg-gray-900 mt-8 text-white flex flex-col items-center py-10">
+      <header className="w-full mt-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl font-bold mb-4 text-green-500">Xbox Support</h1>
         <p className="text-lg text-gray-300">Need help? We’ve got you covered. Find solutions to common issues or get in touch with our support team.</p>
       </header>
@@ -12,7 +12,7 @@ function SupportPage() {
       <section className="w-full max-w-5xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-6 lg:px-8">
         <div className="bg-gray-800 rounded-lg p-6 text-center hover:shadow-xl transition-shadow">
           <Image 
-            src="/icons/controller.svg" 
+            src="./New.jpg" 
             alt="Controller Support" 
             width={80} 
             height={80} 
@@ -22,21 +22,11 @@ function SupportPage() {
           <p className="text-gray-400">Get help with controller connectivity and functionality.</p>
         </div>
 
-        <div className="bg-gray-800 rounded-lg p-6 text-center hover:shadow-xl transition-shadow">
-          <Image 
-            src="/icons/network.svg" 
-            alt="Network Support" 
-            width={80} 
-            height={80} 
-            className="mx-auto mb-4"
-          />
-          <h2 className="text-xl font-semibold mb-2">Network Troubleshooting</h2>
-          <p className="text-gray-400">Resolve connectivity issues and optimize your gaming experience.</p>
-        </div>
+       
 
         <div className="bg-gray-800 rounded-lg p-6 text-center hover:shadow-xl transition-shadow">
           <Image 
-            src="/icons/gamepass.svg" 
+            src="./gamepass.jpg" 
             alt="Game Pass Support" 
             width={80} 
             height={80} 
@@ -72,7 +62,7 @@ function SupportPage() {
 
         <div className="bg-gray-800 rounded-lg p-6 text-center hover:shadow-xl transition-shadow">
           <Image 
-            src="/icons/updates.svg" 
+            src="./2.jpg" 
             alt="Updates and News" 
             width={80} 
             height={80} 
