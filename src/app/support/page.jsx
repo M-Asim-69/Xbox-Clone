@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function SupportPage() {
   return (
-    <div className="min-h-screen bg-gray-900 mt-8 text-white flex flex-col items-center py-10">
+    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center py-10">
       <header className="w-full mt-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl font-bold mb-4 text-green-500">Xbox Support</h1>
         <p className="text-lg text-gray-300">Need help? We’ve got you covered. Find solutions to common issues or get in touch with our support team.</p>
