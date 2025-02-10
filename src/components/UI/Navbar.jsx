@@ -29,10 +29,10 @@ export default async function Navbar() {
               {token ? "Add" : "News"}
             </Link>
             <Link
-              href={token ? `/Todo/${1}` : "/support"}
+              href={token ? `/Todo/${1}` : "/Videos"}
               className="hover:text-green-500"
             >
-              {token ? "Todo" : "Support"}
+              {token ? "Todo" : "Videos"}
             </Link>
             {token ? (
               <form action={LogOut}>
