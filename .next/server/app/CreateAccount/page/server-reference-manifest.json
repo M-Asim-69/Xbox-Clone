@@ -1,0 +1,27 @@
+{
+  "node": {
+    "00cec92b2f2fc4999fa963ece3ecba0174fc346db6": {
+      "workers": {
+        "app/CreateAccount/page": {
+          "moduleId": "[project]/.next-internal/server/app/CreateAccount/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ServerActions/LogOut.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ServerActions/CreateAccount.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/CreateAccount/page": "rsc"
+      }
+    },
+    "40baf507bae480ff41b13f44ca2e4b2d90cdbf6df6": {
+      "workers": {
+        "app/CreateAccount/page": {
+          "moduleId": "[project]/.next-internal/server/app/CreateAccount/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ServerActions/LogOut.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ServerActions/CreateAccount.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/CreateAccount/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

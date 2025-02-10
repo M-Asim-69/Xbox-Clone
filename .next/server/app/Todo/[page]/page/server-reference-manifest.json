@@ -1,0 +1,49 @@
+{
+  "node": {
+    "406c52d40c5cf89a68d230a89a955f19b50407d00c": {
+      "workers": {
+        "app/Todo/[page]/page": {
+          "moduleId": "[project]/.next-internal/server/app/Todo/[page]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ServerActions/LogOut.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ServerActions/Deleted.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/Todo/[page]/page.jsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/UI/Delete.jsx [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/Todo/[page]/page": "rsc"
+      }
+    },
+    "00cec92b2f2fc4999fa963ece3ecba0174fc346db6": {
+      "workers": {
+        "app/Todo/[page]/page": {
+          "moduleId": "[project]/.next-internal/server/app/Todo/[page]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ServerActions/LogOut.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ServerActions/Deleted.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/Todo/[page]/page.jsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/UI/Delete.jsx [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/Todo/[page]/page": "rsc"
+      }
+    },
+    "40a22a65ac1c5324de5cc398e42a93551782987f59": {
+      "workers": {
+        "app/Todo/[page]/page": {
+          "moduleId": "[project]/.next-internal/server/app/Todo/[page]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ServerActions/LogOut.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ServerActions/Deleted.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/Todo/[page]/page.jsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/UI/Delete.jsx [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/Todo/[page]/page": "rsc"
+      }
+    },
+    "7f3b7821900cf38ecd65582600930daca36fa4543f": {
+      "workers": {
+        "app/Todo/[page]/page": {
+          "moduleId": "[project]/.next-internal/server/app/Todo/[page]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ServerActions/LogOut.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ServerActions/Deleted.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/Todo/[page]/page.jsx [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/components/UI/Delete.jsx [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/Todo/[page]/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}
