@@ -13,17 +13,12 @@
         "app/News/page": {
           "moduleId": "[project]/.next-internal/server/app/News/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ServerActions/LogOut.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
           "async": false
-        },
-        "app/Games/page": {
-          "moduleId": "[project]/.next-internal/server/app/Games/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ServerActions/LogOut.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
         }
       },
       "layer": {
         "app/page": "rsc",
         "app/Videos/page": "rsc",
-        "app/News/page": "rsc",
-        "app/Games/page": "rsc"
+        "app/News/page": "rsc"
       }
     }
   },
