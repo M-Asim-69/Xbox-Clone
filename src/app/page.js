@@ -11,9 +11,9 @@ export default function Page() {
           <Image
             src="/7.jpg"
             alt="Hero Background"
-            layout="fill" // Covers the entire section
-            objectFit="cover" // Ensures the image covers the area proportionally
-            priority // Preloads the image for better performance
+            layout="fill" 
+            objectFit="cover" 
+            priority 
           />
           <div className="absolute inset-0 bg-black bg-opacity-60"></div>
           <div className="relative z-10 flex flex-col justify-center items-center h-full text-center text-white px-4">

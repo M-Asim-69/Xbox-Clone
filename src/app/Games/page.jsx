@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 export default function page() {
@@ -38,7 +37,6 @@ export default function page() {
                 <p className="text-lg mt-2">
                   Large Map with Simulator Racing Experience.
                 </p>
-      
               </div>
             </div>
 
@@ -58,7 +56,6 @@ export default function page() {
                 <p className="text-lg mt-2">
                   A thrilling multiplayer experience like no other.
                 </p>
-
               </div>
             </div>
 
@@ -78,7 +75,6 @@ export default function page() {
                 <p className="text-lg mt-2">
                   Horror Game Experience with Good Story.
                 </p>
-  
               </div>
             </div>
           </div>
@@ -113,7 +109,6 @@ export default function page() {
                 <div className="absolute inset-0 bg-black opacity-50 group-hover:opacity-40 transition-opacity duration-300"></div>
                 <div className="absolute bottom-4 left-4 text-white">
                   <h3 className="text-xl font-bold">{game.title}</h3>
- 
                 </div>
               </div>
             ))}

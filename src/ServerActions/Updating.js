@@ -8,8 +8,6 @@ export async function Updated(formData) {
   const title = formData?.get("title");
   const description = formData?.get("description");
   let response;
-
-  // Get the access token from cookies
   const cookieStore = cookies();
   const token = cookieStore?.get("access_token")?.value;
 
@@ -17,7 +15,6 @@ export async function Updated(formData) {
     console.error("Missing required fields or token");
     return;
   }
-
   try {
    response = await fetch(`${process.env.URL}/todo/${id}`, {
       method: "PATCH",
@@ -30,14 +27,11 @@ export async function Updated(formData) {
         description,
       }),
     });
-
     if (!response.ok) {
       console.error("Failed to update todo. Status:", response.status);
     } else {
       console.log("Todo updated successfully!");
     }
-
-    // Redirect back to the todo list page
     
   } catch (error) {
     console.error("Error updating todo:", error);

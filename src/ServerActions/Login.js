@@ -1,6 +1,5 @@
 'use server'
-
-import { cookies } from 'next/headers'; // This is the function to interact with cookies
+import { cookies } from 'next/headers'; 
 import { redirect } from "next/navigation";
 
 export async function Login(formData) {
@@ -26,7 +25,6 @@ export async function Login(formData) {
         console.error('Login error:', error.message || error);
     }
 
-
     if (response) {
         const data = await response.json();
         const accessToken = data.data.access_token; 
@@ -39,8 +37,6 @@ export async function Login(formData) {
             path: '/', 
            
         });
-
-        
         redirect('/');
     }
 }

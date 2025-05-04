@@ -1,11 +1,9 @@
 import { Updated } from "@/ServerActions/Updating";
 import Image from "next/image";
 
-export default async function page({ params,searchParams }) {
-  let id = params.num
-  let{title,description}= searchParams;
-
-
+export default async function page({ params, searchParams }) {
+  let id = params.num;
+  let { title, description } = searchParams;
 
   return (
     <div className="relative min-h-screen bg-black flex justify-center items-center">
@@ -19,13 +17,11 @@ export default async function page({ params,searchParams }) {
         />
         <div className="absolute inset-0 bg-black opacity-40"></div>
       </div>
-
       {/* Form Container */}
       <div className="relative z-10 w-full max-w-lg p-8 rounded-xl bg-trasnperant bg-opacity-20 shadow-lg border-2 border-green-800">
         <h2 className="text-3xl text-center font-bold text-green-500 mb-6">
           Create a New Item
         </h2>
-
         <form action={Updated} className="space-y-6">
           <input type="hidden" name="id" id="id" value={id} />
           {/* Title Input */}
@@ -43,7 +39,6 @@ export default async function page({ params,searchParams }) {
               required
             />
           </div>
-
           {/* Description Input */}
           <div>
             <label

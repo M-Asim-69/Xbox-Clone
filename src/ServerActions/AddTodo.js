@@ -1,9 +1,6 @@
 'use server';
-
 import { cookies } from 'next/headers'; 
 import { redirect } from 'next/navigation';
-
-console.log(process.env.URL);
 
 export async function AddTodo(formData) {
     const Title = formData.get("title");

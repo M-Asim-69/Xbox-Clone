@@ -1,7 +1,6 @@
 "use server";
 import { cookies } from "next/headers";
-import { redirect } from "next/navigation";
-
+import { revalidatePath } from 'next/cache'
 
 export async function Deleted(formData) {
   try {
@@ -22,7 +21,7 @@ export async function Deleted(formData) {
 
     // Revalidate the todos page
 
-    redirect("/Todo/1");
+    revalidatePath("/Todo/1");
   } catch (error) {
     console.error("Delete error:", error);
     throw error;

@@ -1,16 +1,15 @@
-import { Login } from '@/ServerActions/Login';
-import React from 'react';
-import Image from 'next/image';
+import { Login } from "@/ServerActions/Login";
+import React from "react";
+import Image from "next/image";
 
 function page() {
-  console.log(process.env,URL);
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-green-700 to-gray-900 text-white">
       <div className="text-center mb-8">
         <Image
           src="/xbox.png"
           alt="Xbox Logo"
-          width={96} // Adjusted for explicit dimensions
+          width={96}
           height={96}
           priority
           className="w-24 mx-auto mb-4"

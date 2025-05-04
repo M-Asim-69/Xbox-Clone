@@ -1,8 +1,7 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function page() {
   return (
-
     <section className="py-16 px-4 bg-gradient-to-b from-green-950 via-green-500 text-white md:pb-52 pb-32">
       <h2 className="text-3xl mt-24 md:text-4xl font-bold text-center text-white mb-12 tracking-wider">
         Latest News
@@ -24,9 +23,9 @@ export default function page() {
               Xbox Series X: New Update
             </h3>
             <p className="text-gray-400 text-sm mb-4 group-hover:text-gray-300 transition duration-300">
-              Discover the latest features in the newest Xbox Series X update, designed to enhance your gaming experience.
+              Discover the latest features in the newest Xbox Series X update,
+              designed to enhance your gaming experience.
             </p>
-
           </div>
         </div>
 
@@ -44,9 +43,9 @@ export default function page() {
               New Games Added to Game Pass
             </h3>
             <p className="text-gray-400 text-sm mb-4 group-hover:text-gray-300 transition duration-300">
-              Check out the exciting new games added to Xbox Game Pass this month! From RPGs to action-packed adventures.
+              Check out the exciting new games added to Xbox Game Pass this
+              month! From RPGs to action-packed adventures.
             </p>
-
           </div>
         </div>
 
@@ -64,9 +63,9 @@ export default function page() {
               Xbox Cloud Gaming: A Game Changer
             </h3>
             <p className="text-gray-400 text-sm mb-4 group-hover:text-gray-300 transition duration-300">
-              Xbox Cloud Gaming allows you to play your favorite games on any device, anywhere, at any time.
+              Xbox Cloud Gaming allows you to play your favorite games on any
+              device, anywhere, at any time.
             </p>
-
           </div>
         </div>
 
@@ -84,9 +83,9 @@ export default function page() {
               Xbox Game Studios Reveals New Titles
             </h3>
             <p className="text-gray-400 text-sm mb-4 group-hover:text-gray-300 transition duration-300">
-              Xbox Game Studios reveals exciting new titles for next-gen consoles. Here's what you can expect in 2024.
+              Xbox Game Studios reveals exciting new titles for next-gen
+              consoles. Here's what you can expect in 2024.
             </p>
-    
           </div>
         </div>
 
@@ -104,9 +103,9 @@ export default function page() {
               The Evolution of Xbox Live
             </h3>
             <p className="text-gray-400 text-sm mb-4 group-hover:text-gray-300 transition duration-300">
-              Explore the history and future of Xbox Live, from its early days to the evolution of online gaming.
+              Explore the history and future of Xbox Live, from its early days
+              to the evolution of online gaming.
             </p>
-  
           </div>
         </div>
 
@@ -124,9 +123,9 @@ export default function page() {
               Xbox and EA: A New Partnership
             </h3>
             <p className="text-gray-400 text-sm mb-4 group-hover:text-gray-300 transition duration-300">
-              Xbox announces a strategic partnership with EA to bring exciting new sports games to the platform.
+              Xbox announces a strategic partnership with EA to bring exciting
+              new sports games to the platform.
             </p>
-            
           </div>
         </div>
       </div>

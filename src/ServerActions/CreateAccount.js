@@ -1,6 +1,4 @@
 "use server";
-
-
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
@@ -26,8 +24,6 @@ export async function createAccount(formData) {
     console.error("Error creating account:", error);
     
   }
-
-
 
   if (response) {
     const data = await response.json();

@@ -1,14 +1,13 @@
 import { AddTodo } from "@/ServerActions/AddTodo";
 import React from "react";
-import Image from 'next/image'
-
 
 function page() {
   return (
-    <div className="min-h-screen bg-cover bg-center relative" style={{ backgroundImage: "url('/5.jpg')" }}>
-      {/* Overlay to darken the background */}
+    <div
+      className="min-h-screen bg-cover bg-center relative"
+      style={{ backgroundImage: "url('/5.jpg')" }}
+    >
       <div className="absolute inset-0 bg-black opacity-60"></div>
-
       {/* Form container */}
       <div className="relative z-10 flex items-center justify-center min-h-screen">
         {/* Border container with increased width */}

@@ -1,6 +1,7 @@
-import { createAccount } from '@/ServerActions/CreateAccount';
-import React from 'react';
-import Image from 'next/image';
+import { createAccount } from "@/ServerActions/CreateAccount";
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 function Page() {
   return (
@@ -10,7 +11,7 @@ function Page() {
           <Image
             src="/xbox.png"
             alt="Xbox Logo"
-            width={96} // 24 * 4 (tailwind w-24 equivalent)
+            width={96}
             height={96}
             className="mx-auto mb-4"
             priority
@@ -22,7 +23,10 @@ function Page() {
           className="bg-black bg-opacity-45 p-8 rounded-lg shadow-lg w-full max-w-md"
         >
           <div className="mb-6">
-            <label htmlFor="username" className="block text-sm font-medium mb-2">
+            <label
+              htmlFor="username"
+              className="block text-sm font-medium mb-2"
+            >
               Username
             </label>
             <input
@@ -48,7 +52,10 @@ function Page() {
             />
           </div>
           <div className="mb-6">
-            <label htmlFor="password" className="block text-sm font-medium mb-2">
+            <label
+              htmlFor="password"
+              className="block text-sm font-medium mb-2"
+            >
               Password
             </label>
             <input
@@ -68,9 +75,9 @@ function Page() {
           </button>
         </form>
         <div className="mt-6 text-center">
-          <a href="/LogIN" className="text-green-400 hover:underline">
+          <Link href="/LogIN" className="text-green-400 hover:underline">
             Already have an account? Sign In
-          </a>
+          </Link>
         </div>
       </main>
     </>
